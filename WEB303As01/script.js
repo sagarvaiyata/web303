@@ -4,12 +4,17 @@
 	0770698
 */
 
-$(document).ready(function(){
-	$("#yearly-salary,#percent").keyup(function(){
-         var amount = 0;
-		 var x = Number($("#yearly-salary").val());
-         var y = Number($("#percent").val());
-		 var amount= x * y;
-		 $("#amount").val(amount);
-	});
-	});
+$( document ).ready(function() {
+    $("#yearly-salary,#percent").keyup(function() {
+        p=$("#percent").val()
+        s=$("#yearly-salary").val()
+        if(p!="" && s!="")
+        {
+            v=(p*s/100).toFixed(2)
+            $("#amount").html("$"+v)
+        }
+        else
+            $("#amount").html("$0")
+    });
+});
+
