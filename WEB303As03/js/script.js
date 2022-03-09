@@ -1,26 +1,25 @@
-
 $(function(){
-
-let getJsonObject = $.getJSON("team.json").done(function (data) {
-    // jQuery.each
-    $.each(data.members, function (key, val) {
-        console.log("data key: ", key, " and data value: ", val);
-
-        $('#content').append(`<div id="${val.name.toLowerCase()}" id="team">
-            <div class="name"><h2>${val.name}</h2></div>
-            <div class="position"><h5>${val.position}</h5></div>
-            <div class="bio"><p>${val.bio}</p></div>
-        </div>`);
-    });
+  // ajaxData();
+  getJsonData();
 });
 
-console.log("The getjson object: ", getJsonObject);
-});
 
-// init();
+function getJsonData(){
+  let getJsonObject = $.getJSON("team.json"  ).done(function (data) {
+      // jQuery.each
+      $.each(data.members, function (key, val) {
+          console.log("data key: ", key, " and data value: ", val);
 
+          $('#content').append(`<div id="${val.name.toLowerCase()}" id="team">
+              <div class="name"><h2>${val.name}</h2></div>
+              <div class="position"><h5>${val.position}</h5></div>
+              <div class="bio"><p>${val.bio}</p></div>
+          </div>`);
+      });
+  });
 
-$(function(){
+  console.log("The getjson object: ", getJsonObject);
+}
 
 
 function ajaxData() {
@@ -46,8 +45,4 @@ function ajaxData() {
     })
   
 }
-});
-
-
-
 
