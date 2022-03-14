@@ -1,0 +1,33 @@
+ul.tab-list {
+    list-style: none;
+    text-align: center;
+  }
+  ul.tab-list li {
+    display: inline-block;
+    margin-left: 16px;
+    padding: 8px;
+    border: 1px solid black;
+  }
+  ul.tab-list li.active {
+    background-color: grey;
+  }
+  ul.tab-list li.active a {
+    color: greenyellow;
+  }
+  .tab-panel {
+    display: none;
+    width: 700px;
+    height: 200px;
+    padding: 50px;
+    border: 1px solid black;
+    text-align: center;
+    margin-left: 19em;
+  }
+  .tab-panel.active {
+    display: block;
+  }
+  .tab-control{
+     text-decoration: none;
+     color: grey;
+  }
+  
