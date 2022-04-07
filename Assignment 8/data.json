@@ -1,0 +1,51 @@
+[
+    {
+        "name": "Captain America",
+        "CharacterName": "Steve Rogers",
+        "abilities": "Captain America has agility, strength, speed, endurance, and reaction time superior to any Olympic athlete who ever competed.",
+        "firstAppearance": "Captain America-The first avenger",
+        "FriendsWith": "Bucky Barnes"
+    },
+    {
+        "name": "Iron Man",
+        "CharacterName": "Tony Stark",
+        "abilities": "Genius level intellect Proficient scientist and engineer Powered armor suit: Superhuman strength, speed, durability, agility, reflexes.",
+        "firstAppearance": "Iron Man",
+        "FriendsWith": "James Rhody Rhodes"
+    },
+    {   
+        "name": "Thor",
+        "CharacterName": "Thor Odinson",
+        "abilities": "The mighty Thor wields an enchanted Uru hammer, Mjolnir, and is master of thunder and lightning.",
+        "firstAppearance": "Thor",
+        "FriendsWith": "Heimdall"
+    }, 
+    {  "name": "Hawkeye",
+        "CharacterName": "Clint Barton",
+        "abilities": "Master archer and marksman Expert tactician, acrobat and hand-to-hand combatant Using a variety of trick arrows As Goliath",
+        "firstAppearance": "Thor",
+        "FriendsWith": "Natasha Romanoff"
+    },
+    {  "name": "Ant Man",
+        "CharacterName": "Scott Lang",
+        "abilities": "Ability to shrink to sub-microscopic size and enter the subatomic universes.",
+        "firstAppearance": "Ant-Man",
+        "FriendsWith": "Captain America"
+    } ,
+    {
+        "name": "Black Widow",
+        "CharacterName": "Natasha Romanoff",
+        "abilities": "master in the covert arts of espionage, infiltration, and subterfuge",
+        "firstAppearance": "Avengers",
+        "FriendsWith": "Hawkeye"
+    } ,
+    {
+        "name": "Dr. Strange",
+        "CharacterName": "Stephen Strange",
+        "abilities": "A Master of the Mystic Arts",
+        "firstAppearance": "Dr. Strange",
+        "FriendsWith": "Wong"
+    }
+
+    
+]
