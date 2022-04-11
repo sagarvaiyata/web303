@@ -1,0 +1,84 @@
+[
+    {
+        "name": "Captain America",
+        "CharacterName": "Steve Rogers",
+        "abilities": "Captain America has agility, strength, speed, endurance, and reaction time superior to any Olympic athlete who ever competed.",
+        "firstAppearance": "Captain America-The first avenger",
+        "ReleaseDate": "2011-06-22",
+        "FriendsWith": "Bucky Barnes"
+    },
+    {
+        "name": "Iron Man",
+        "CharacterName": "Tony Stark",
+        "abilities": "Genius level intellect Proficient scientist and engineer Powered armor suit: Superhuman strength, speed, durability, agility, reflexes.",
+        "firstAppearance": "Iron Man",
+        "ReleaseDate": "2008-05-02",
+        "FriendsWith": "James Rhody Rhodes"
+    },
+    {   
+        "name": "Thor",
+        "CharacterName": "Thor Odinson",
+        "abilities": "The mighty Thor wields an enchanted Uru hammer, Mjolnir, and is master of thunder and lightning.",
+        "firstAppearance": "Thor",
+        "ReleaseDate": "2011-05-06",
+        "FriendsWith": "Heimdall"
+    }, 
+    {  "name": "Hawkeye",
+        "CharacterName": "Clint Barton",
+        "abilities": "Master archer and marksman Expert tactician, acrobat and hand-to-hand combatant Using a variety of trick arrows As Goliath",
+        "firstAppearance": "Thor",
+        "ReleaseDate": "2011-05-06",
+        "FriendsWith": "Natasha Romanoff"
+    },
+    {  "name": "Ant Man",
+        "CharacterName": "Scott Lang",
+        "abilities": "Ability to shrink to sub-microscopic size and enter the subatomic universes.",
+        "firstAppearance": "Ant-Man",
+        "ReleaseDate": "2015-06-17",
+        "FriendsWith": "Captain America"
+    } ,
+    {
+        "name": "Black Widow",
+        "CharacterName": "Natasha Romanoff",
+        "abilities": "master in the covert arts of espionage, infiltration, and subterfuge",
+        "firstAppearance": "Avengers",
+        "ReleaseDate": "2012-05-14",
+        "FriendsWith": "Hawkeye"
+    } ,
+    {
+        "name": "Dr. Strange",
+        "CharacterName": "Stephen Strange",
+        "abilities": "A Master of the Mystic Arts",
+        "firstAppearance": "Dr. Strange",
+        "ReleaseDate": "2016-12-04",
+        "FriendsWith": "Wong"
+    },
+    {
+        "name": "Hulk",
+        "CharacterName": "Bruce Banner",
+        "abilities": "Incredible superhuman strength, durability, and healing factor",
+        "firstAppearance": "The Incredible Hulk",
+        "ReleaseDate": "2011-05-13",
+        "FriendsWith": "Natasha Romanoff"
+    },
+    {
+        "name": "SpiderMan",
+        "CharacterName": "Peter Parker",
+        "abilities": "Superhuman Strength",
+        "firstAppearance": "Avengers",
+        "ReleaseDate": "2012-05-04",
+        "FriendsWith": "Ned"
+    },
+    {
+        "name": "Black Panther",
+        "CharacterName": "T'Challa",
+        "abilities": "Heightened strength, speed, stamina agility and reflexes",
+        "firstAppearance": "Avengers",
+        "ReleaseDate": "2012-05-04",
+        "FriendsWith": "Captain America"
+    }
+ 
+    
+
+    
+]
